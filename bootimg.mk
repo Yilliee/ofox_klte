@@ -1,4 +1,5 @@
 MKBOOTIMG := device/samsung/klteduos/mkbootimg
+LOCAL_PATH := $(call my-dir)
 
 FLASH_IMAGE_TARGET ?= $(PRODUCT_OUT)/recovery.tar
 
