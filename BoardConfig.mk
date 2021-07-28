@@ -39,8 +39,8 @@ BOARD_CACHEIMAGE_PARTITION_SIZE    := 0x00C800000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/zImage
-TARGET_PREBUILT_DTB := $(LOCAL_PATH)/dtb.img
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/zImage
+TARGET_PREBUILT_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
 
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
