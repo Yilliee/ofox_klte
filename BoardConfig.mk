@@ -72,7 +72,6 @@ TW_NO_EXFAT := false
 TW_NO_EXFAT_FUSE := false
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true
-TW_EXTRA_LANGUAGES := true 
 
 # Encryption support
 TW_INCLUDE_CRYPTO := true
